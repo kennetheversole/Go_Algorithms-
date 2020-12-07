@@ -22,7 +22,6 @@ func (ll *linkedList) empty() bool {
 	}
 }
 
-
 func (ll *linkedList) pushFront(newValue interface{}) {
 	newNode := new(node)
 	newNode.value = newValue
